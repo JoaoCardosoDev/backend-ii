@@ -22,13 +22,17 @@
 		},
 		"ghcr.io/devcontainers-extra/features/pre-commit:2": {
 			"version": "latest"
-		},
-		"ghcr.io/devcontainers-extra/features/ruff:1": {
-			"version": "latest"
 		}
 	},
 	"containerEnv": {
 		"POETRY_VIRTUALENVS_IN_PROJECT": "1"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff"
+			]
+		}
 	}
 	
 	// Features to add to the dev container. More info: https://containers.dev/features.
