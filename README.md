@@ -50,7 +50,6 @@ Design patterns are standard solutions to common software design problems. They 
 **Documentation Reference:**
 - https://refactoring.guru/design-patterns/python
 - https://www.tutorialspoint.com/python_design_patterns/index.htm
-- https://realpython.com/design-patterns-python/
 
 ### Tutorial:
 - Introduction to Singleton: Explain why you might need only one instance of a class.
