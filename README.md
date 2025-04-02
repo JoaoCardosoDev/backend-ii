@@ -23,6 +23,7 @@ def linear_search(lst, target):
             return True
     return False
 ```
+
 - Explanation: This function’s runtime grows linearly with the size of the list, hence O(n).
 
 - Comparison: Briefly discuss how a binary search (O(log n)) differs in performance.
