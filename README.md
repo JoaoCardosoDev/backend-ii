@@ -883,54 +883,39 @@ To achieve the objective and meet the project goal, the following requirements m
 
 Your project will be evaluated based on the quality of what you deliver and how well it meets the objectives. Below is a checklist of everything that must be completed and what we’ll be looking for:
 
-1. **Source Code**
+1. **Source Code** (3 points)
    - Clean, modular, and well-documented Python code.
    - Hosted on GitHub/GitLab with a clear structure and meaningful commit messages (following conventional commits).
    - A Git tag must be created before the final class session at 23h59 (Lisbon time).
    - You must also upload a zip file of your project to the shared Google Drive folder.
 
-2. **Backend Application**
+2. **Backend Application** (4 points)
    - Built with **FastAPI**, **Django**, or a **CLI-based solution**.
    - Fully working integration with **Crew AI**, demonstrating real use of AI agents.
 
-3. **AI Agent Integration**
+3. **AI Agent Integration** (3 points)
    - At least one AI agent using **Crew AI**.
    - Clear interface between your backend and the agent(s).
    - Agents should perform useful tasks (e.g. analysis, automation, recommendations).
 
-4. **Database**
+4. **Database** (2 points)
    - Persistent data storage using PostgreSQL or SQLite.
    - If needed: basic authentication and session handling.
 
-5. **Documentation**
+5. **Documentation** (3 points)
    - Technical documentation describing:
      - System architecture.
      - Usage.
    - User guide for installation and usage.
    - If using FastAPI: auto-generated API docs (e.g. Swagger UI/OpenAPI).
-
-6. **Testing**
-   - Unit and integration tests.
-   - Instructions to run tests.
-
-7. **Deployment**
-   - Docker and Docker Compose for containerised deployment.
-   - CI/CD setup (script or GitHub Actions, etc.)
-
-8. **Project Report**
    - Brief report summarising:
      - What the project does.
      - Implementation challenges and how you solved them.
 
----
+6. **Testing** (2 point)
+   - Unit and integration tests.
+   - Instructions to run tests.
 
-| **Criteria**                                                 | **Points**    |
-|--------------------------------------------------------------|---------------|
-| Proper use of Crew AI agents and backend integration         | 4 pts         |
-| Code quality (clean, modular, follows best practices)        | 4 pts         |
-| Testing (coverage and reliability) & performance             | 3 pts         |
-| Security (input validation, auth if needed) & error handling | 3 pts         |
-| Documentation (technical + user) & project report            | 3 pts         |
-| Innovation and creativity in the solution                    | 3 pts         |
-| **Total**                                                    | **20 points** |
-
+7. **Deployment** (3 point)
+   - Docker and Docker Compose for containerised deployment.
+   - CI/CD setup (script or GitHub Actions, etc.)
