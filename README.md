@@ -879,7 +879,7 @@ To achieve the objective and meet the project goal, the following requirements m
     - Develop unit tests and integration tests to ensure code reliability.
     - Incorporate automated testing and Continuous Integration/Continuous Deployment (CI/CD) where possible.
 
-# Evaluation (20 points)
+### Evaluation (20 points)
 
 Your project will be evaluated based on the quality of what you deliver and how well it meets the objectives. Below is a checklist of everything that must be completed and what we’ll be looking for:
 
