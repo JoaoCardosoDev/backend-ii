@@ -879,70 +879,58 @@ To achieve the objective and meet the project goal, the following requirements m
     - Develop unit tests and integration tests to ensure code reliability.
     - Incorporate automated testing and Continuous Integration/Continuous Deployment (CI/CD) where possible.
 
-### Deliverables
+# Evaluation (20 points)
 
-The following are the key deliverables that should be produced and submitted upon project completion:
+Your project will be evaluated based on the quality of what you deliver and how well it meets the objectives. Below is a checklist of everything that must be completed and what we’ll be looking for:
 
-- Source Code Repository:
-    - Fully documented source code hosted on a version control system (e.g. GitHub or GitLab).
-    - Clear commit messages and a well-organised code structure.
+1. **Source Code**
+   - Clean, modular, and well-documented Python code.
+   - Hosted on GitHub/GitLab with a clear structure and meaningful commit messages (following conventional commits).
+   - A Git tag must be created before the final class session at 23h59 (Lisbon time).
+   - You must also upload a zip file of your project to the shared Google Drive folder.
 
-- Backend Application:
-    - A fully functional Python backend built using Django, FastAPI, or a CLI-based approach.
-    - Working integration with Crew AI for handling AI agent tasks.
+2. **Backend Application**
+   - Built with **FastAPI**, **Django**, or a **CLI-based solution**.
+   - Fully working integration with **Crew AI**, demonstrating real use of AI agents.
 
-- Documentation:
-    - Detailed technical documentation covering system architecture, API endpoints, and design decisions.
-    - User manuals or guides for installation, configuration, and usage.
-    - Auto-generated API documentation (such as Swagger/OpenAPI if using FastAPI).
+3. **AI Agent Integration**
+   - At least one AI agent using **Crew AI**.
+   - Clear interface between your backend and the agent(s).
+   - Agents should perform useful tasks (e.g. analysis, automation, recommendations).
 
-- Testing Suite:
-    - Unit and integration tests with instructions on how to run them.
-    - Test reports covering code coverage and performance benchmarks.
+4. **Database**
+   - Persistent data storage using PostgreSQL or SQLite.
+   - If needed: basic authentication and session handling.
 
-- Deployment Scripts:
-    - Dockerfile or similar containerisation configurations for deployment.
-    - CI/CD pipeline scripts or instructions for automated deployments.
+5. **Documentation**
+   - Technical documentation describing:
+     - System architecture.
+     - Usage.
+   - User guide for installation and usage.
+   - If using FastAPI: auto-generated API docs (e.g. Swagger UI/OpenAPI).
 
-- Project Report:
-    - A comprehensive report that includes the project overview, implementation challenges, solutions provided, and potential areas for future improvement.
+6. **Testing**
+   - Unit and integration tests.
+   - Instructions to run tests.
 
-### Evaluation (20 points)
+7. **Deployment**
+   - Docker and Docker Compose for containerised deployment.
+   - CI/CD setup (script or GitHub Actions, etc.)
 
-Project evaluation should be based on both technical and non-technical criteria:
+8. **Project Report**
+   - Brief report summarising:
+     - What the project does.
+     - Implementation challenges and how you solved them.
 
-#### Technical Evaluation
+---
 
-- Functionality & Integration:
-    - Demonstration of successfully integrated AI agents using Crew AI.
-    - Proper functioning of backend services and API endpoints.
-
-- Code Quality:
-    - Adherence to coding standards and best practices.
-    - Modularity, readability, and maintainability of the code.
-
-- Testing & Performance:
-    - Coverage and thoroughness of unit and integration tests.
-    - Performance benchmarks under simulated loads.
-
-- Security & Error Handling:
-    - Effective implementation of security measures and error-handling protocols.
-
-- Deliverables
-    - Git tag
-    - Project zip on Google Drive folder
-    - Tag created before **Last modules lesson day at 23h59 Lisbon timezone**
-
-
-#### Non-Technical Evaluation
-
-- Documentation:
-    - Clarity and thoroughness of technical and user documentation.
-    - Quality and usefulness of the provided project report.
-
-- Innovation & Creativity:
-    - Originality in solving the problem using AI agents.
-    - Thoughtful design choices that demonstrate a high level of comprehension and foresight.
-
-
+| **Criteria**                                                 | **Points**    |
+|--------------------------------------------------------------|---------------|
+| Proper use of Crew AI agents and backend integration         | 4 pts         |
+| Code quality (clean, modular, follows best practices)        | 4 pts         |
+| Testing (coverage and reliability) & performance             | 3 pts         |
+| Security (input validation, auth if needed) & error handling | 3 pts         |
+| Documentation (technical + user) & project report            | 3 pts         |
+| Innovation and creativity in the solution                    | 3 pts         |
+| **Total**                                                    | **20 points** |
 
