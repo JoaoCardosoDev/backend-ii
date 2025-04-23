@@ -4,6 +4,6 @@ from todo.models import Task
 
 # Register your models here.
 
-@admin.tegister(Task)
+@admin.register(Task)
 class TaskAdmin(admin.ModelAdmin):
     pass
